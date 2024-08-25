@@ -188,7 +188,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 
 @media screen and (max-width: 576px) {
-    .skills-container{
+    .skills-container, .resume-container{
         flex-direction: column;
+        padding: 10px;
     }
 }
